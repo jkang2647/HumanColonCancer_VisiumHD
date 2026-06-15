@@ -1,0 +1,21 @@
+# Raw VisiumHD data (too large for GitHub — download from 10x Genomics)
+VisiumHD/PatientCRC1/
+
+# Large binary/data file types
+*.cloupe
+*.h5
+*.mtx.gz
+*.tiff
+*.bam
+*.bai
+# Raw spatial tissue position parquets (large); output metadata parquets are tracked
+tissue_positions.parquet
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
